@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Dog Haven</h1>
+        <div class="section">
+            <h2>List of Dogs</h2>
+            <button id="fetchDogs">Fetch Dogs</button>
+            <ul id="dogList"></ul>
+        </div>
+        <div class="section">
+            <h2>Get Dog by ID</h2>
+            <input type="number" id="dogId" placeholder="Enter Dog ID">
+            <button id="fetchDogById">Fetch Dog</button>
+            <p id="dogInfo"></p>
+        </div>
+        <div class="section">
+            <h2>Add a Dog</h2>
+            <input type="text" id="dogName" placeholder="Dog Name">
+            <input type="number" id="dogAge" placeholder="Dog Age">
+            <button id="addDog">Add Dog</button>
+        </div>
+        <div class="section">
+            <h2>Update a Dog</h2>
+            <input type="number" id="updateDogId" placeholder="Dog ID">
+            <input type="text" id="updateDogName" placeholder="Dog Name">
+            <input type="number" id="updateDogAge" placeholder="Dog Age">
+            <button id="updateDog">Update Dog</button>
+        </div>
+        <div class="section">
+            <h2>Delete a Dog</h2>
+            <input type="number" id="deleteDogId" placeholder="Dog ID">
+            <button id="deleteDog">Delete Dog</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
